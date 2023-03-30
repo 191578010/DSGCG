@@ -1,1 +1,22 @@
 
+There are 42000 CG images and 42000 PG images sized from 256 × 256 to 4928 × 3264 with moderate
+to good visual quality in the DSGCG dataset. The CG set contains traditional CG images, GAN images, and DM images.
+
+6000 TCG image set were constructed by collecting CG video or game screenshots (namely Forza Horizon, GANTZ,
+
+God of War, Red Dead Redemption, and Playerunknown’s Battlegrounds) from Kaggle and Google websites. We used
+
+the pretrained StyleGAN2, ProGAN, and BigGAN models for GAN images generation (Total number: 18000,
+
+each GAN contains 6000 images with 6 categories). Stable diffusion, Latent diffusion, and DALL · E Mini
+
+were adopted to generate 18000 (=6000+6000+6000) DM images, respectively. For images in the PG set, 402 images
+
+with different contents were taken by the authors using a NIKON D5200 camera, the focal length and exposure time
+
+are 25mm and 1/200 second respectively. 1600 and 5998 images were downloaded from the Columbia and RAISE
+
+datasets. 24000 were downloaded from LSUN dataset. Since grayscale images are also widely used in real
+scenario, 10000 grayscale PG images in BOSSbase v1.01 dataset were also collected to enhance the diversity of
+
+images.
